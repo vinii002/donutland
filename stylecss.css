@@ -75,7 +75,7 @@ main {
 
 /* === HERO === */
 .hero {
-  background-color: #fff8f2;
+  background-color: rgba(255, 248, 242, 0.25);
   padding: 80px 20px;
   text-align: center;
   border-radius: 12px;
@@ -131,7 +131,7 @@ main {
 /* === SOBRE NÓS === */
 .sobre {
   margin-top: 60px;
-  background-color: #fff8f2;
+  background-color: rgba(255, 248, 242, 0.25);
   padding: 40px 20px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
@@ -219,10 +219,9 @@ main {
   background-color: #a55deb;
 }
 
-
 /* === LOCAIS === */
 .locais {
-  background-color: #fff8f2;
+  background-color: rgba(255, 248, 242, 0.25);
   padding: 40px 20px;
   margin-top: 60px;
   border-radius: 12px;
@@ -239,7 +238,7 @@ main {
   display: flex;
   justify-content: center;
   gap: 30px;
-  flex-wrap: nowrap; /* mantém as lojas na mesma linha */
+  flex-wrap: nowrap;
 }
 
 .mapa {
@@ -247,7 +246,7 @@ main {
   padding: 15px;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  width: 300px; /* largura fixa para alinhamento */
+  width: 300px;
 }
 
 .mapa h3 {
@@ -263,8 +262,6 @@ main {
   border-radius: 8px;
 }
 
-
-
 /* === RESPONSIVIDADE === */
 @media (max-width: 768px) {
   header nav {
@@ -273,13 +270,14 @@ main {
     align-items: center;
     flex-wrap: wrap;
   }
-  .logo{
+
+  .logo {
     height: 60px;
   }
 
   .menu-toggle {
     display: block;
-    color:#7b2cbf;
+    color: #7b2cbf;
     font-size: 30px;
     background: none;
     border: none;
@@ -327,6 +325,7 @@ main {
     margin-bottom: 10px;
   }
 }
+
 /* === RODAPÉ COM LOGO === */
 .footer-completo {
   display: flex;
@@ -340,11 +339,12 @@ main {
 }
 
 .logo-rodape {
-  height: 200px; /* Maior que a do topo */
+  height: 200px;
 }
 
+/* === CARRINHO === */
 .carrinho {
-  background-color: #fff8f2;
+  background-color: rgba(255, 248, 242, 0.25);
   padding: 30px 20px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
@@ -415,6 +415,8 @@ main {
   margin-top: 15px;
   display: block;
 }
+
+/* === CONTATO === */
 .info-contato {
   text-align: center;
   margin-bottom: 30px;
@@ -425,6 +427,7 @@ main {
 .info-contato p {
   margin: 8px 0;
 }
+
 form label {
   font-weight: bold;
   color: #7b2cbf;
@@ -453,6 +456,8 @@ form button.btn {
 form button.btn:hover {
   background-color: #a55deb;
 }
+
+/* === IMAGEM IMPACTO === */
 .img-impacto {
   width: 100%;
   max-width: 600px;
@@ -462,7 +467,8 @@ form button.btn:hover {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
- .contato-loja {
+
+.contato-loja {
   margin-top: 10px;
   font-weight: bold;
   color: #7b2cbf;
